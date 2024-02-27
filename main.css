@@ -3,17 +3,17 @@
       margin: 0;
       padding: 0;
    }
+
    header .container {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      
+      justify-content: space-between; 
    }
+
    body > header {
       padding: 16px 0;
    }
       
-
    header li {
       display: inline;
       font-family: 'Courier New', Courier, monospace;
@@ -26,19 +26,23 @@
      header li a {
       text-decoration: none;
      }
+
    .container {
       width: 1000px;
       margin: 0 auto;
    }
+
    .articles {
       display: flex;
    justify-content: space-between;
    }
+
    .container img {
       width: 300px;
       display: flex;
       height: 250px;
    }
+
    .articles article {
       width: 40%;
    }
@@ -53,7 +57,6 @@
       font-size: 48px;
       line-height: 59px;
       margin-bottom: 24px;
-
    }
 
    h2 {   
@@ -66,7 +69,6 @@
       font-size: 48px;
       line-height: 59px;
       margin-bottom: 24px;
-   
    }
 
    .creation-date {
@@ -74,6 +76,7 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-weight: lighter;
    }
+
    section {
    padding: 16px 0;
    }
@@ -93,9 +96,9 @@
       content: '';
       z-index: -1;
       font-size: 24px;
-      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-      
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
    }
+
    .articles article a {
       background-color: gray;
       color: #fff;
@@ -108,9 +111,9 @@
       font-weight: bold;
       margin-top: 8px;
    }
+
    .articles article a:hover {
       text-decoration: underline;
-      
    }
 
    .articles article p {
@@ -118,6 +121,30 @@
       text-decoration: inherit;
       font-size: 22px;
 }
+
+#Cultury {
+   background-color: #f1c9d2;
+   color: darkblue;
+}
+
+#Tecnology {
+   background-color: #bbc2eb;
+}
+
+#Cultury .articles article a {
+   background-color: #151320;
+   color: #e71d8c;
+}
+#Cultury .articles article h3 {
+   color: rgb(27, 2, 25);
+}
+
+#Cultury .creation-date {
+   color: #e71d8c;
+}
+
+
+
 
 
 
